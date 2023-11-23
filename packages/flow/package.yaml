@@ -1,0 +1,14 @@
+name: flow
+description: Binary wrapper for Flow - A static type checker for JavaScript
+homepage: https://github.com/flow/flow-bin
+licenses:
+  - MIT
+languages:
+  - Flow
+  - JavaScript
+categories:
+  - LSP
+source:
+  id: pkg:npm/flow-bin@0.222.0
+bin:
+  flow: npm:flow
